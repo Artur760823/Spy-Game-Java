@@ -24,13 +24,13 @@ public class Main {
         System.out.println("| Type first number from 1 to 10:                          |");
         System.out.println(" ---------------------------------------------------------- ");
         System.out.println("                                                            ");
+        
         int firstNumber = randomNumber();
-        System.out.println(firstNumber);
         int seconNumber = randomNumber();
-        System.out.println(seconNumber);
         int thirdNumber = randomNumber();
-        System.out.println(thirdNumber);
+
         int counter = 3;
+
         int firstUserNumber = input.nextInt();
 
         while (true) {
